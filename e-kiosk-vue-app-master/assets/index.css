@@ -1,0 +1,51 @@
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+.overflowHidden{
+    overflow: hidden !important;
+}
+.ax-wrapper {
+    transition-duration: 3s !important;
+}
+.typed{
+    color: white !important;
+    font-family: "Poppins", sans-serif;
+  }
+  .idle{
+      background-color: white !important;
+  }
+  .left-title-container{
+      display: none !important;
+  }
+  .circle-creeBoule{
+      transform: scale(0.9);
+      filter: blur(7px);
+      pointer-events: none;
+      z-index: 9999999;
+  }
+  
+  @media screen and (max-width: 1200px){
+      .left-title-container{
+          display: block !important;
+          position: relative;
+      }
+      .circle-creeBoule{
+          display: none !important;
+      }
+      .absolute-left-decor{
+          display: none !important;
+      }
+      .left-title{
+        display: block !important;
+        }
+      .title-box{
+          padding-left: 0 !important;
+      }
+  }
+
+  @media screen and (max-width: 500px){
+      .closeScroll{
+          overflow: hidden !important;
+      }
+  }

@@ -1,0 +1,52 @@
+{
+  "name": "e-kiosk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.1",
+    "bootstrap-vue": "^2.21.2",
+    "cookie-universal-nuxt": "^2.1.5",
+    "core-js": "^3.9.1",
+    "csshake": "^1.5.3",
+    "express": "^4.17.1",
+    "fa": "^1.0.1",
+    "flipbook-vue": "^0.10.3",
+    "fs": "0.0.1-security",
+    "gsap": "^3.7.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "nuxt": "^2.15.3",
+    "pdfreader": "^1.2.10",
+    "swiper": "^6.7.1",
+    "v-mask": "^2.2.4",
+    "vue": "^2.6.14",
+    "vue-lottie": "^0.2.1",
+    "vue-marquee-text-component": "^1.2.0",
+    "vue-parallax-js": "^0.2.3",
+    "vue-scroll-trigger": "^1.0.2",
+    "vue-tilt.js": "^1.1.1",
+    "vue-typer": "^1.2.0",
+    "vue2-hammer": "^2.1.2",
+    "vuejs-google-maps": "^0.1.1",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.0",
+    "fibers": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.1",
+    "sass-loader": "^10.2.0"
+  }
+}
